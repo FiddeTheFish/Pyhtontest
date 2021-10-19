@@ -5,14 +5,14 @@ pipeline {
         stage('Build') {
             steps {
                 bat """
-                docker build -t hello_there .
+                docker build -t hello .
                 """
             }
         }
         stage('Run') {
            steps {
                 bat """
-                docker run --rm hello_there
+                docker run --rm hello
                 """
             }
         
