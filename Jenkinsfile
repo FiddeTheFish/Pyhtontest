@@ -14,7 +14,7 @@ pipeline {
                 docker run --rm hello_there
             }
         
-             
-             
+        }     
+
     }
 }
