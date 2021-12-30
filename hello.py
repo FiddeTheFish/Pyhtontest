@@ -1,5 +1,5 @@
 import requests
-#df
+#this is simple code
 x= requests.get('https://www.google.com')
 
 if x.status_code == 200:
